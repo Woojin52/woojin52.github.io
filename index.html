@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Woojin Lee | Computer Vision Researcher</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+<header class="header">
+    <div class="container">
+        <div class="header-content">
+            <h1 class="logo"><a href="#intro">Woojin Lee</a></h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </div>
+</header>
+
+<!-- ================= Intro ================= -->
+<section id="intro" class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h2>
+                    My Research Topics:
+                    <span class="highlight">Computer Vision</span> and <span class="highlight">Object Detection</span>
+                </h2>
+                <p>Ph.D. Student, KAIST EE, VICLab</p>
+
+                <div class="hero-btns">
+                    <a href="#publications" class="btn btn-primary">View Publications</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img src="images/profile.jpg" alt="Woojin Lee" class="profile-img">
+                <div class="decoration-circle"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ================= About ================= -->
+<section id="about" class="section about">
+    <div class="container">
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-content">
+            <div class="about-text">
+                <p>
+                    I am a Ph.D. student in the School of Electrical Engineering at
+                    <a href="https://www.viclab.kaist.ac.kr/" target="_blank">VICLab</a>,
+                    KAIST, advised by
+                    <a href="https://scholar.google.com/citations?user=bGXte_4AAAAJ" target="_blank">
+                        Prof. Munchurl Kim
+                    </a>.
+                </p>
+
+                <p>
+                    My current research focuses on computer vision, object detection, vision-language models, and geometry-aware visual understanding.
+                </p>
+
+                <div class="education">
+                    <h3>Education</h3>
+                    <ul>
+                        <li>
+                            <strong>Ph.D. in Electrical Engineering</strong>
+                            <span>KAIST, 2025 – Present</span>
+                        </li>
+                        <li>
+                            <strong>M.S. in Electrical Engineering</strong>
+                            <span>KAIST, 2023 – 2025</span>
+                        </li>
+                        <li>
+                            <strong>B.S. in Electrical Engineering</strong>
+                            <span>KAIST, 2018 – 2023</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="skills">
+                <h3>Research Interests</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Computer Vision</span>
+                    <span class="skill-tag">Object Detection</span>
+                    <span class="skill-tag">Oriented Object Detection</span>
+                    <span class="skill-tag">Geometry-Aware Models</span>
+                    <span class="skill-tag">Vision-Language Models</span>
+                    <span class="skill-tag">Weakly-Supervised Learning</span>
+                    <span class="skill-tag">Few-Shot Learning</span>
+                </div>
+
+                <h3>Technical Skills</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">PyTorch</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ================= Publications ================= -->
+<section id="publications" class="section publications">
+    <div class="container">
+        <h2 class="section-title">Publications</h2>
+
+        <!-- Filters -->
+        <div class="publication-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="conference">Conference Papers</button>
+            <button class="filter-btn" data-filter="journal">Journal Articles</button>
+        </div>
+
+        <div class="publication-list">
+
+            <!-- ================= CVPR 2025 ================= -->
+            <div class="publication-item" data-category="conference">
+                <div class="publication-badge conference-badge">Conference</div>
+                <div class="publication-content">
+                    <h3>
+                        ABBSPO: Adaptive Bounding Box Scaling and Symmetric Prior-based Orientation
+                        Prediction for Detecting Aerial Image Objects
+                    </h3>
+                    <p class="publication-authors">
+                        <b>Woojin Lee*</b>, Hyugjae Chang*, Jaeho Moon, Jaehyup Lee†, Munchurl Kim†
+                    </p>
+                    <p class="publication-meta">
+                        <b>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025</b>
+                    </p>
+
+                    <div class="publication-actions">
+                        <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Lee_ABBSPO_Adaptive_Bounding_Box_Scaling_and_Symmetric_Prior_based_Orientation_CVPR_2025_paper.pdf"
+                           class="publication-link" target="_blank" rel="noopener noreferrer">
+                            <i class="fas fa-file-alt"></i> Paper
+                        </a>
+                        <a href="https://woojin52.github.io/abbspo"
+                           class="publication-link" target="_blank" rel="noopener noreferrer">
+                            <i class="fas fa-globe"></i> Project Page
+                        </a>
+                        <a href="https://github.com/Woojin52/ABBSPO"
+                           class="publication-link" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                        <a href="#"
+                           class="publication-link cite-link"
+                           data-citation="@inproceedings{lee2025abbspo,
+  title={ABBSPO: Adaptive Bounding Box Scaling and Symmetric Prior based Orientation Prediction for Detecting Aerial Image Objects},
+  author={Lee, Woojin and Chang, Hyugjae and Moon, Jaeho and Lee, Jaehyup and Kim, Munchurl},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2025}
+}">
+                            <i class="fas fa-quote-right"></i> Cite
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ================= IEEE Access ================= -->
+            <div class="publication-item" data-category="journal">
+                <div class="publication-badge journal-badge">Journal</div>
+                <div class="publication-content">
+                    <h3>
+                        CT-FSOD: CLIP-Based Text-Guided Few-Shot Object Detection
+                    </h3>
+                    <p class="publication-authors">
+                        Hyugjae Chang*, <b>Woojin Lee*</b>, Munchurl Kim
+                    </p>
+                    <p class="publication-meta">
+                        <b>IEEE Access, 2025</b>
+                    </p>
+
+                    <div class="publication-actions">
+                        <a href="https://ieeexplore.ieee.org/abstract/document/11145811"
+                           class="publication-link" target="_blank" rel="noopener noreferrer">
+                            <i class="fas fa-file-alt"></i> Paper
+                        </a>
+                        <a href="#"
+                           class="publication-link cite-link"
+                           data-citation="@article{chang2025ct,
+  title={CT-FSOD: CLIP-Based Text-Guided Few-Shot Object Detection},
+  author={Chang, Hyugjae and Lee, Woojin and Kim, Munchurl},
+  journal={IEEE Access},
+  year={2025},
+  publisher={IEEE}
+}">
+                            <i class="fas fa-quote-right"></i> Cite
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ================= Domestic Journal (JBE) ================= -->
+            <div class="publication-item" data-category="journal">
+                <div class="publication-badge journal-badge">Domestic Journal</div>
+                <div class="publication-content">
+                    <h3>
+                        LIIFusion: Learning Implicit Image Function Using Image Prior Generated
+                        by an Efficient Diffusion Model for Arbitrary-Scale Image Super-Resolution
+                    </h3>
+                    <p class="publication-authors">
+                        Inje Hwang, <b>Woojin Lee</b>, Munchurl Kim
+                    </p>
+                    <p class="publication-meta">
+                        <b>Journal of Broadcast Engineering (JBE), 2024</b>
+                    </p>
+
+                    <div class="publication-actions">
+                        <a href="https://www.kibme.org/resources/journal/20241202151329318.pdf"
+                           class="publication-link" target="_blank" rel="noopener noreferrer">
+                            <i class="fas fa-file-alt"></i> Paper
+                        </a>
+                        <a href="#"
+                           class="publication-link cite-link"
+                           data-citation="@article{hwang2024liifusion,
+  title={LIIFusion: Learning implicit image function using image prior generated by an efficient diffusion model for arbitrary-scale image super-resolution},
+  author={Hwang, I and Lee, W and Kim, M},
+  journal={Journal of Broadcast Engineering},
+  volume={29},
+  number={6},
+  pages={981--998},
+  year={2024}
+}">
+                            <i class="fas fa-quote-right"></i> Cite
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+<!-- ================= Contact ================= -->
+<section id="contact" class="section contact">
+    <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>woojin412@kaist.ac.kr</p>
+
+                    <div class="social-links">
+                        <a href="https://github.com/Woojin52" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-info">
+                <div class="contact-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Laboratory</h3>
+                    <p>
+                        VICLab, KAIST<br>
+                        Daejeon, South Korea
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <p>
+            Thanks to 
+            <a href="https://quan5609.github.io" style="color:aliceblue">
+                Minh-Quan Viet Bui
+            </a>
+            for prividing 
+            <a href="https://github.com/quan5609/quan5609.github.io" style="color:aliceblue">
+                source code
+            </a>.
+        </p>
+    </div>
+</footer>
+
+<script src="scripts/main.js"></script>
+</body>
+</html>
